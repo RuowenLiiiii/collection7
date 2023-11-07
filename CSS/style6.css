@@ -1,0 +1,82 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* 使用自动适应布局，最小宽度为 100px *//* 设置格子之间的间距 */
+    height: 100vh; /* 使容器铺满整个视口高度 */
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    text-align: center;
+  }
+  .grid1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url('图片/43.png');
+    background-size: cover;
+  }
+  
+  .grid2 {
+    grid-column: span 3;
+    grid-row: span 1;
+    background-image: url('image2.jpg');
+    background-size: cover;
+  }
+  
+  .grid3 {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-image: url('image3.jpg');
+    background-size: cover;
+  }
+  
+  .grid4 {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-image: url('image4.jpg');
+    background-size: cover;
+  }
+  
+  .grid5 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('image5.jpg');
+    background-size: cover;
+  }
+  
+  .grid6 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('image6.jpg');
+    background-size: cover;
+  }
+  
+  .grid7 {
+    grid-column: span 2;
+    grid-row: span 1;
+    background-image: url('image7.jpg');
+    background-size: cover;
+  }
+  
+  .grid8 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('image8.jpg');
+    background-size: cover;
+  }
+  
+  .grid9 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('image9.jpg');
+    background-size: cover;
+  }
+  
+  .grid10 {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-image: url('image10.jpg');
+    background-size: cover;
+  }
